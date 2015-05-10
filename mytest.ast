@@ -1,0 +1,19 @@
+ROOT "<<ROOT>>" 0.0.00 
+|  FUNCTION "" 4.7.00 
+|  |  STRING "string" 4.7.00 
+|  |  |  DECLID "pop" 4.7.07 
+|  |  PARAMLIST "(" 4.7.11 
+|  |  |  INT "int" 4.7.12 
+|  |  |  |  DECLID "arg1" 4.7.16 
+|  |  |  STRING "string" 4.7.21 
+|  |  |  |  DECLID "arg2" 4.7.28 
+|  |  |  INT "int" 4.7.34 
+|  |  |  |  DECLID "arg3" 4.7.38 
+|  |  BLOCK "{" 4.7.44 
+|  |  |  CALL "(" 4.8.10 
+|  |  |  |  IDENT "assert" 4.8.03 
+|  |  |  |  NE "!=" 4.8.21 
+|  |  |  |  |  '.' "." 4.8.16 
+|  |  |  |  |  |  IDENT "stack" 4.8.11 
+|  |  |  |  |  |  FIELD "top" 4.8.17 
+|  |  |  |  |  IDENT "EMPTY" 4.8.24 

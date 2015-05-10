@@ -1,0 +1,27 @@
+# 1 "mytest.oc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "mytest.oc"
+  4   7.000 262  TOK_STRING      (string) 
+  4   7.007 279  TOK_IDENT       (pop) 
+  4   7.011  40  '('             (() 
+  4   7.012 261  TOK_INT         (int) 
+  4   7.016 279  TOK_IDENT       (arg1) 
+  4   7.020  44  ','             (,) 
+  4   7.021 262  TOK_STRING      (string) 
+  4   7.028 279  TOK_IDENT       (arg2) 
+  4   7.032  44  ','             (,) 
+  4   7.034 261  TOK_INT         (int) 
+  4   7.038 279  TOK_IDENT       (arg3) 
+  4   7.042  41  ')'             ()) 
+  4   7.044 123  '{'             ({) 
+  4   8.003 279  TOK_IDENT       (assert) 
+  4   8.010  40  '('             (() 
+  4   8.011 279  TOK_IDENT       (stack) 
+  4   8.016  46  '.'             (.) 
+  4   8.017 279  TOK_IDENT       (top) 
+  4   8.021 274  TOK_NE          (!=) 
+  4   8.024 279  TOK_IDENT       (EMPTY) 
+  4   8.029  41  ')'             ()) 
+  4   8.030  59  ';'             (;) 
+  4  12.000 125  '}'             (}) 

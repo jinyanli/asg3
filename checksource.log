@@ -1,0 +1,10 @@
+checksource: improper character \x09 = ^I (tab)
+   file "astree.cc~": 1 errors: line 82
+checksource: improper character \x0D = ^M (carriage return)
+   file "main.cc~": 2 errors: lines 115--116
+checksource: line length > 72 characters
+   file "Makefile": 1 errors: line 77
+   file "astree.h": 1 errors: line 24
+   file "parser.y": 2 errors: lines 163, 211
+   file "scanner.l": 1 errors: line 27
+checksource: TOTAL COMPLAINTS: 8

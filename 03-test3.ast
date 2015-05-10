@@ -1,0 +1,26 @@
+ROOT "<<ROOT>>" 0.0.00 
+|  VARDECL "=" 3.5.06 
+|  |  INT "int" 3.5.00 
+|  |  |  DECLID "a" 3.5.04 
+|  |  INTCON "3" 3.5.08 
+|  VARDECL "=" 3.6.06 
+|  |  INT "int" 3.6.00 
+|  |  |  DECLID "b" 3.6.04 
+|  |  INTCON "8" 3.6.08 
+|  VARDECL "=" 3.7.06 
+|  |  INT "int" 3.7.00 
+|  |  |  DECLID "c" 3.7.04 
+|  |  '+' "+" 3.7.10 
+|  |  |  IDENT "a" 3.7.08 
+|  |  |  IDENT "b" 3.7.12 
+|  '=' "=" 3.8.02 
+|  |  IDENT "a" 3.8.00 
+|  |  '+' "+" 3.8.06 
+|  |  |  IDENT "b" 3.8.04 
+|  |  |  IDENT "c" 3.8.08 
+|  CALL "(" 3.9.05 
+|  |  IDENT "puti" 3.9.00 
+|  |  IDENT "a" 3.9.06 
+|  CALL "(" 3.10.05 
+|  |  IDENT "putc" 3.10.00 
+|  |  CHARCON "'\n'" 3.10.06 

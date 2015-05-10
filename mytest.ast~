@@ -1,0 +1,6 @@
+ROOT "<<ROOT>>" 0.0.00 
+|  VARDECL "=" 5.38.13 
+|  |  STRING "string" 5.38.00 
+|  |  |  DECLID "stack" 5.38.07 
+|  |  NEWSTRING "new" 5.38.15 
+|  |  |  STRINGCON ""1a3"" 5.38.26 

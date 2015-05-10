@@ -1,0 +1,72 @@
+// $Id: 04-test4.oc,v 1.1 2011-09-15 18:50:16-07 - - $
+
+//#include "oclib.oh"
+
+
+
+string pop (int arg1,string arg2, int arg3) {
+   assert (stack.top != EMPTY);
+   //string tmp = stack.data[stack.top];
+   //stack.top = stack.top - 1;
+   //return tmp;
+}
+
+//int argi = 1;
+/*
+struct foo {
+   //int a;
+   string b;
+   //int c;
+   //char d;
+}
+struct foo {}
+struct bar {}
+
+int f0 ();
+int f1 (int a);
+int f2 (int a, int b);
+int f3 (string a, string b, string c);
+int f4 (foo a, bar b);
+string s = "a";
+string[] sa = new string[10];
+
+
+while (argv[argi] != null) {
+   if (argi > 1) putc ("one");
+   puts (argv[argi]);
+   argi = argi + 1;
+}
+*/
+//string[] stack = new string("1a3"); 
+//bool[] sieve = new bool[SIZE];
+//string[] argv = getargv ();
+/*
+if (a == 1){
+ b=2;
+  if (c == 1)
+  d=3;
+}
+else
+ b=3;
+*/
+
+//int a = 6;
+//foo b = new foo ();
+//b.a = 8;
+//a = a*(b+c);
+
+/*
+if (a == 1)
+b=2;
+else if (a == 3)
+puts ("three");
+else puts ("many");
+//endl ();
+
+
+
+puti (a);
+putc (' ');
+puti (b.a);
+endl ();
+*/
